@@ -1,0 +1,4 @@
+../BSP/Src/direction.c:14:6:direction_init	4	static
+../BSP/Src/direction.c:19:6:direction_update	8	static
+../BSP/Src/direction.c:28:13:direction_get	4	static
+../BSP/Src/direction.c:33:6:direction_is_forward	4	static

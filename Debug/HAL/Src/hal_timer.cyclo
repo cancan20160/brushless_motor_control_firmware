@@ -1,0 +1,11 @@
+../HAL/Src/hal_timer.c:14:6:hal_timer1_pwm_init	1
+../HAL/Src/hal_timer.c:19:6:hal_timer1_pwm_start	6
+../HAL/Src/hal_timer.c:41:6:hal_timer1_pwm_stop	6
+../HAL/Src/hal_timer.c:63:6:hal_timer1_set_duty	6
+../HAL/Src/hal_timer.c:84:10:hal_timer1_get_duty	2
+../HAL/Src/hal_timer.c:92:6:hal_timer1_set_arr	1
+../HAL/Src/hal_timer.c:97:10:hal_timer1_get_arr	1
+../HAL/Src/hal_timer.c:102:6:hal_timer2_input_capture_init	1
+../HAL/Src/hal_timer.c:107:6:hal_timer2_input_capture_start	1
+../HAL/Src/hal_timer.c:112:6:hal_timer2_input_capture_stop	1
+../HAL/Src/hal_timer.c:117:10:hal_timer2_get_capture_value	1

@@ -1,0 +1,5 @@
+../Control/Src/motor_control.c:23:6:motor_control_init	8	static
+../Control/Src/motor_control.c:45:6:motor_control_task	16	static
+../Control/Src/motor_control.c:114:6:motor_control_hall_interrupt_callback	16	static
+../Control/Src/motor_control.c:129:6:motor_control_brake_interrupt_callback	8	static
+../Control/Src/motor_control.c:140:6:motor_control_direction_interrupt_callback	8	static
