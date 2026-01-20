@@ -1,0 +1,26 @@
+/**
+ * @mainpage BLDC Motor Driver Documentation
+ * 
+ * @section intro_sec Introduction
+ * 
+ * This is a brushless direc current motor driver firmware
+ * Six-step commutation motor driver.
+ * 
+ * @section features_sec Features
+ * 
+ * - Layered architecture design
+ * - MCAL abstraction via layer
+ * - Shunt-resistor current monitor support
+ * - VBUS monitor support
+ * - MOSFET and motor temperature monitor via NTC thermistors
+ * 
+ * @section usage_sec Usage
+ * 
+ * See @ref YAZILACAK
+ * 
+ * @section example_sec Example
+ * 
+ * @code
+ * - YAZILACAK
+ * @endcode
+ */

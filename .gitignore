@@ -71,6 +71,7 @@ obj/
 .mxproject
 Thumbs.db
 .DS_Store
+latex/
 
 # Derlenmiş Binary Formatlar
 *.elf

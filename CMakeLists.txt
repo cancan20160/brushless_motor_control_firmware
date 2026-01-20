@@ -45,29 +45,29 @@ target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
 # Add sources to executable
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
-    BSP/Src/brake.c
-    BSP/Src/current_sensor.c
-    BSP/Src/direction.c
-    BSP/Src/hall_sensor_driver.c
-    BSP/Src/pwm_driver.c
-    BSP/Src/temperature_sensor.c
-    BSP/Src/throttle.c
-    BSP/Src/voltage_sensor.c
-    Control/Src/commutation.c
-    Control/Src/motor_control.c
-    Control/Src/state_machine.c
-    HAL/Src/hal_adc.c
-    HAL/Src/hal_gpio.c
-    HAL/Src/hal_timer.c
+    ECAL/Src/brake.c
+    ECAL/Src/current_sensor.c
+    ECAL/Src/direction.c
+    ECAL/Src/hall_sensor_driver.c
+    ECAL/Src/pwm_driver.c
+    ECAL/Src/temperature_sensor.c
+    ECAL/Src/throttle.c
+    ECAL/Src/voltage_sensor.c
+    APP/Src/commutation.c
+    APP/Src/motor_control.c
+    APP/Src/state_machine.c
+    MCAL/Src/hal_adc.c
+    MCAL/Src/hal_gpio.c
+    MCAL/Src/hal_timer.c
     Utils/Src/filter.c
 )
 
 # Add include paths
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined include paths
-    BSP/Inc
-    Control/Inc
-    HAL/Inc
+    ECAL/Inc
+    APP/Inc
+    MCAL/Inc
     Utils/Inc
 )
 

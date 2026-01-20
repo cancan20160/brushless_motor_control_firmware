@@ -105,7 +105,7 @@ int main(void)
   MX_OPAMP3_Init();
   /* USER CODE BEGIN 2 */
   hal_timer2_input_capture_start();
-  motor_control_init();
+  app_motor_control_init();
 
   /* USER CODE END 2 */
 
@@ -114,8 +114,8 @@ int main(void)
   app_init();
   while (1)
   {
-	  motor_control_task();
-	  phase_current = current_sensor_get_phase_current();
+	  app_motor_control_task();
+	  phase_current = ecal_current_sensor_get_phase_current();
 	  HAL_Delay(10);
     /* USER CODE END WHILE */
 
@@ -176,15 +176,15 @@ void SystemClock_Config(void)
 /* USER CODE BEGIN 4 */
 void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim)
 {
-	motor_control_hall_interrupt_callback();
+	app_motor_control_hall_interrupt_callback();
 }
 
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
 	if (GPIO_Pin == BRAKE_BUTTON_Pin) {
-		motor_control_brake_interrupt_callback();
+		app_motor_control_brake_interrupt_callback();
 	} else if (GPIO_Pin == DIRECTION_BUTTON_Pin) {
-		motor_control_direction_interrupt_callback();
+		app_motor_control_direction_interrupt_callback();
 	}
 }
 
