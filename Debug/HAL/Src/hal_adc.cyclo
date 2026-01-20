@@ -1,6 +1,0 @@
-../HAL/Src/hal_adc.c:16:6:hal_adc2_init	1
-../HAL/Src/hal_adc.c:21:6:hal_adc3_init	1
-../HAL/Src/hal_adc.c:27:6:hal_adc2_start	1
-../HAL/Src/hal_adc.c:33:6:hal_adc3_start	1
-../HAL/Src/hal_adc.c:38:10:hal_adc2_get_raw_value	2
-../HAL/Src/hal_adc.c:46:10:hal_adc3_get_raw_value	1

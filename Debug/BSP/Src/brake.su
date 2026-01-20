@@ -1,3 +1,0 @@
-../BSP/Src/brake.c:14:6:brake_init	4	static
-../BSP/Src/brake.c:19:6:brake_update	8	static
-../BSP/Src/brake.c:24:6:brake_is_pressed	4	static

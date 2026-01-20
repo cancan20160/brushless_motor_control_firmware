@@ -1,4 +1,0 @@
-../HAL/Src/hal_gpio.c:12:6:hal_gpio_init	1
-../HAL/Src/hal_gpio.c:16:9:hal_gpio_read_hall_sensors	1
-../HAL/Src/hal_gpio.c:25:6:hal_gpio_read_brake	1
-../HAL/Src/hal_gpio.c:29:6:hal_gpio_read_direction	1

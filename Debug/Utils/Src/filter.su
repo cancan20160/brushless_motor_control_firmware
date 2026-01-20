@@ -1,5 +1,0 @@
-../Utils/Src/filter.c:34:24:median3	16	static
-../Utils/Src/filter.c:47:6:adc_filter_init	16	static
-../Utils/Src/filter.c:57:10:adc_filter_process	24	static
-../Utils/Src/filter.c:109:6:app_init	8	static
-../Utils/Src/filter.c:114:10:adc_callback	24	static

@@ -53,3 +53,27 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Derleme Çıktıları
+build/
+Debug/
+Release/
+bin/
+obj/
+
+# IDE Özel Ayarlar
+.settings/
+.vscode/
+.clangd
+*.launch
+
+# Geçici ve OS Dosyaları
+.mxproject
+Thumbs.db
+.DS_Store
+
+# Derlenmiş Binary Formatlar
+*.elf
+*.bin
+*.hex
+*.map

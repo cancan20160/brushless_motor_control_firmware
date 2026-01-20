@@ -1,6 +1,0 @@
-../BSP/Src/pwm_driver.c:16:6:pwm_driver_init	1
-../BSP/Src/pwm_driver.c:23:6:pwm_driver_start	2
-../BSP/Src/pwm_driver.c:32:6:pwm_driver_stop	2
-../BSP/Src/pwm_driver.c:41:6:pwm_driver_set_duty_percent	3
-../BSP/Src/pwm_driver.c:59:9:pwm_driver_get_duty_percent	2
-../BSP/Src/pwm_driver.c:68:6:pwm_driver_stop_all	1

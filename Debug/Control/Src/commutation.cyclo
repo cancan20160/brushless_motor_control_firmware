@@ -1,4 +1,0 @@
-../Control/Src/commutation.c:40:13:apply_phase_state	5
-../Control/Src/commutation.c:60:6:commutation_init	1
-../Control/Src/commutation.c:65:6:commutation_update	3
-../Control/Src/commutation.c:80:6:commutation_stop	1

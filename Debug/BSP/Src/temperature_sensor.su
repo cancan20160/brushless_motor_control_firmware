@@ -1,5 +1,0 @@
-../BSP/Src/temperature_sensor.c:22:14:calculate_temperature	32	static
-../BSP/Src/temperature_sensor.c:33:6:temperature_sensor_init	4	static
-../BSP/Src/temperature_sensor.c:39:6:temperature_sensor_update	16	static
-../BSP/Src/temperature_sensor.c:48:7:temperature_sensor_get_mosfet_temp	4	static
-../BSP/Src/temperature_sensor.c:53:7:temperature_sensor_get_motor_temp	4	static

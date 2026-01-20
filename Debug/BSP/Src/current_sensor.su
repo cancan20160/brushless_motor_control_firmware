@@ -1,3 +1,0 @@
-../BSP/Src/current_sensor.c:21:6:current_sensor_init	4	static
-../BSP/Src/current_sensor.c:26:6:current_sensor_update	24	static
-../BSP/Src/current_sensor.c:39:7:current_sensor_get_phase_current	4	static

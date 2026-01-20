@@ -1,3 +1,0 @@
-../BSP/Src/throttle.c:18:6:throttle_init	1
-../BSP/Src/throttle.c:23:6:throttle_update	4
-../BSP/Src/throttle.c:47:9:throttle_get_percent	1
